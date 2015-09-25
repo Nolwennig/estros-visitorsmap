@@ -55,7 +55,7 @@ function visitorsmap_init(){
           <img src="http://estros.gr/logo.png" height="45">
         </a>
         <div style="width:100%; font-size: 18px; font-weight: bold;">Plugin Description</div>
-        <p>This plugin adds a popup form through a shortcode that enables to register records straight to your Nimble account.</p>
+        <p>Simple visitor tracking wordpress plugin that presents in an openstreetmap the visitors of your website.</p>
       </div>
      
       <div class="welcome-panel">
