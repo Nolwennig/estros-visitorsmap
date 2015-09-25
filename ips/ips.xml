@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ips>
+	<ip>
+		<value>0.0.0.0</value>
+		<longitude>50.000000</longitude>
+		<latitude>50.849998</latitude>
+		<city>Unknown City</city>
+		<country>Unknown</country>
+		<population>1</population>
+		<visits>1</visits>
+	</ip>
+	<ip>
+		<value>212.71.246.210</value>
+		<longitude>37.583000</longitude>
+		<latitude>55.750000</latitude>
+		<city>Moscow, MC, Russia</city>
+		<country>Russia</country>
+		<visits>1</visits>
+		<population>145000234</population>
+	</ip>
+</ips>
