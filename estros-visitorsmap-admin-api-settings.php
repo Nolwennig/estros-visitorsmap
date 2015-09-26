@@ -6,7 +6,7 @@ if (isset($_POST['visitorsmap_prefs']))
 }
 ?>
 <h3>Preferences</h3>
-<!--
+
 <form name="visitorsmap" method="POST" action="<?php echo str_replace('%7E', '~', $_SERVER['REQUEST_URI']); ?>">
   <strong>visitorsmap_map:</strong><br />
   <input type="text" value="<?php echo esc_attr( get_option('visitorsmap_map') ); ?>" id="visitorsmap_map" name="visitorsmap_map" ><br />
@@ -15,4 +15,3 @@ if (isset($_POST['visitorsmap_prefs']))
   <?php submit_button("Save Preferences"); ?>
   <br />
 </form>
--->

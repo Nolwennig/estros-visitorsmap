@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Visitors to MAP Plugin
  * Plugin URI: http://estros.gr
- * Description: Shows all your visitors in a map based on their ids.
+ * Description: Shows all your visitors in a map based on their ip categorised by cities.
  * Version: 1.0
  * Author: Estros.gr
  * Author URI: http://estros.gr
@@ -48,16 +48,20 @@ function visitorsmap_admin(){
 function visitorsmap_init(){
   ?>
   <div class="wrap">
-    <h2>Guests to MAP Plugin</h2>
     <div style="padding:5px; display: inline-block; width:42%;">   
+    <h2>Visitors shown on a MAP Plugin</h2>
       <div class="welcome-panel">
+      
         <a href="https://estros.gr" target="_blank">
           <img src="http://estros.gr/logo.png" height="45">
         </a>
         <div style="width:100%; font-size: 18px; font-weight: bold;">Plugin Description</div>
-        <p>Simple visitor tracking wordpress plugin that presents in an openstreetmap the visitors of your website.</p>
+        <p>Simple visitor tracking wordpress plugin that presents, in an openstreetmap, the visitors of your website categorised by cities based on their ip. You can add the shortcode to any page/post/product etc to track its visits.</p>
+        <p>
+        The implementaion is done using <a href ="https://www.openstreetmap.org/" target="_blank">OpenStreetMaps</a> and <a href="http://www.geobytes.com/" target="_blank">GeoBytes</a>.
+        </p>
       </div>
-     
+     <!--
       <div class="welcome-panel">
         <?php
         if($_GET['settings-updated'])
@@ -69,6 +73,7 @@ function visitorsmap_init(){
         ?>
         <?php include 'estros-visitorsmap-admin-api-settings.php'; ?>
       </div>
+      -->
   	</div>
     <div class="welcome-panel" style="vertical-align: top; width: 53%; display: inline-block;">
       <h2>How to use the shortcode</h2>
